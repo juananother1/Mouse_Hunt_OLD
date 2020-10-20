@@ -1,0 +1,67 @@
+import time
+import random
+
+print("Welcome to MouseHunt 2")
+time.sleep(1)
+print("Input 0 to Hunt")
+hunt = int(input())
+
+if hunt == 0:
+  list1 = [1, 2, 3, 4, 5, 6, 7]
+mouse = random.choice(list1)
+
+if mouse == 7: 
+  print("You caught a Brown Mouse")
+
+elif mouse == 6:
+  print("You caught a Diamond Mouse")
+
+elif mouse == 5:
+  print("You caught a Gold Mouse")
+
+elif mouse == 4:
+  print("You caught a Silver Mouse")
+
+elif mouse == 3:
+  print("You caught a Warrior Mouse")
+
+elif mouse == 2:
+  print("You caught an Iron Mouse")
+
+elif mouse == 1:
+  print("You caught a Bronze Mouse")
+
+while 1==1:
+  print("Input 0 to Hunt")
+  hunt = int(input())
+
+  if hunt == 0:
+    list1 = [1, 2, 3, 4, 5, 6, 7]
+  mouse = random.choice(list1)
+
+  if mouse == 7: 
+    print("You caught a Brown Mouse")
+
+  elif mouse == 6:
+    print("You caught a Diamond Mouse")
+
+  elif mouse == 5:
+    print("You caught a Gold Mouse")
+
+  elif mouse == 4:
+    print("You caught a Silver Mouse")
+
+  elif mouse == 3:
+    print("You caught a Warrior Mouse")
+
+  elif mouse == 2:
+    print("You caught an Iron Mouse")
+
+  elif mouse == 1:
+    print("You caught a Bronze Mouse")
+
+  print("Press 1 to check your collections.")
+  collectionCheck = int(input())
+
+if collectionCheck == 1:
+  print 
